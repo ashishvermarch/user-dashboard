@@ -1,0 +1,19 @@
+import React from "react";
+
+export default function AboutUs() {
+  return (
+    <>
+      <header className="bg-white shadow">
+        <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+          <h1 className="text-3xl font-bold tracking-tight text-gray-900">
+            About Us
+          </h1>
+
+          <h1 className="text-3xl font-bold tracking-tight text-yellow-600 text-center">
+            Project made by Ashish Verma
+          </h1>
+        </div>
+      </header>
+    </>
+  );
+}
